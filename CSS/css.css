@@ -1,0 +1,33 @@
+header a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+a{
+    color: #000;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+
+}
+
+a:-webkit-any-link:hover {
+    text-decoration: none;
+}
+.tieude{
+    text-align: center;
+}
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+.huni{
+    margin-bottom: 40px;
+    font-family: 'Josefin Sans', serif;
+
+}
